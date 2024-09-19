@@ -1,6 +1,9 @@
 
 <?php
-include "bfheader.php"
+include "bfheader.php";
+if($_SESSION['status_login']!=true){
+  header("location:../content/login.php");
+}
 ?>
 
 <body class="index-page tampil">
