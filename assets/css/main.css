@@ -2126,3 +2126,55 @@ td{
 .regis{
   color: #00d100;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px); /* Blurred overlay */
+}
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+  width: 300px;
+}
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+.form-control {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-bottom: 15px;
+}
+.form-control::placeholder {
+  color: #ccc;
+}
+.btn-login {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  border: none;
+}
+.btn-login:hover {
+  background-color: #ccc;
+}
+.bg-img-home{
+  background-image: url('../img/services.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
