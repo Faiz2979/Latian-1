@@ -1,11 +1,11 @@
 
 <?php
+session_start();
 include "bfheader.php";
-if($_SESSION['status_login']!=true){
-  header("location:../content/login.php");
+if ($_SESSION['status_login'] != true) {
+  header('location: ../content/login.php'); 
 }
 ?>
-
 <body class="index-page tampil">
 
   <div id="header" class="header d-flex align-items-center fixed-top">
