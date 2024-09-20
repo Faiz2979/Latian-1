@@ -5,10 +5,10 @@ include "../main/bfheader.php";
 <div class="container">
 <div class="overlay"></div>
     <div class="login-box">
-        <h2>Login Pegawai</h2>
+        <h2 class="white">Login Pegawai</h2>
         <form action="../pr/pr_login.php" method="post">
-            <input type="text" name="username" class="form-control" placeholder="Username">
-            <input type="password" name="password" class="form-control" placeholder="Password">
+            <input type="text" name="username" class="form-transparent form-control" placeholder="Username">
+            <input type="password" name="password" class="form-transparent form-control" placeholder="Password">
             <button type="submit" class="btn btn-login">Login</button>
         </form>
         <div class="text-center mt-3">

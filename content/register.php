@@ -19,6 +19,7 @@ include "../main/bfheader.php";
     <input type="text" name="alamat" value="" class="form-control">
     <br>
     <h3>Jenis Kelamin</h3>
+    <span></span>
     <input type="radio" name="gender" value="L" class="form-check-input">
     <h4>Laki-Laki</h4>
     <input type="radio" name="gender" value="P" class="form-check-input">

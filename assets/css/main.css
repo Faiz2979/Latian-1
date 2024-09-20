@@ -2151,12 +2151,6 @@ td{
   font-size: 24px;
   text-align: center;
 }
-.form-control {
-  background: transparent;
-  color: #fff;
-  border: 1px solid #fff;
-  margin-bottom: 15px;
-}
 .form-control::placeholder {
   color: #ccc;
 }
@@ -2177,4 +2171,13 @@ td{
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
+}
+.form-transparent{
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-bottom: 15px;
+}
+.white {
+  color: #fff;
 }

@@ -17,7 +17,7 @@
                 $_SESSION['status_login']=true;
                 header("location: ../content/home.php");
             } else {
-                echo "<script>alert('Username dan Password tidak benar');location.href='login.php';</script>";
+                echo "<script>alert('Username dan Password tidak benar');location.href='../content/login.php';</script>";
             }
         }
     }

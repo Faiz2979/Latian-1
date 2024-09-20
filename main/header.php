@@ -19,7 +19,7 @@ if ($_SESSION['status_login'] != true) {
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="home.php" class="active">Home</a></li>
+          <li><a href="home.php" class="">Home</a></li>
           <!-- <li><a href="buku.php">Buku</a></li> -->
           <!-- <li><a href="histori_peminjaman.php">Histori</a></li> -->
           <li class="dropdown"><a href="#"><span>Tampil</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
